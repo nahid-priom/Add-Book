@@ -10620,22 +10620,27 @@ a.has-text-danger-dark:hover {
   padding: 3rem 1.5rem 6rem;
 }
 .app {
-  margin-bottom: 215px;
+  margin-top: 12%;
   position: relative;
 }
 .app h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 800;
   margin: auto;
   max-width: 1024px;
-  padding: 20px;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid black;
 }
 .book-create {
+  top: 0;
   background-color: #00d1b2;
   bottom: 0;
   padding: 20px 40px 30px;
   position: fixed;
   width: 100%;
+  height: 25%;
+  z-index: 5;
 }
 .book-create h3 {
   color: #fff;
@@ -10643,12 +10648,23 @@ a.has-text-danger-dark:hover {
   font-weight: 700;
 }
 .book-create form {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  font-size: 30px;
 }
+
 .book-create form input {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  width: 25%;
+  height: 30px;
+  border-radius: 10px;
+}
+.book-create form label {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
 }
 .book-list {
   display: flex;
@@ -10726,6 +10742,7 @@ a.has-text-danger-dark:hover {
   position: relative;
   vertical-align: top;
   width: 20px;
+  z-index: -1;
 }
 .book-show .edit:after {
   color: #fff;

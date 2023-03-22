@@ -17,7 +17,7 @@ export const BookCreate = ({onCreate}) => {
         <div className="book-create">
             <form onSubmit={handelSubmit}>
                 <label>
-                    Title
+                    Title of the Book
                 </label>
                 <input value={title} onChange= {handleChange}></input>
                 <button className="button">Create!</button>
