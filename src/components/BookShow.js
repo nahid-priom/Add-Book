@@ -8,6 +8,7 @@ export const BookShow = ({ book, onDelete, onEdit }) => {
     onDelete(book.id);
   };
   const handleEditClick = () => {
+
     setShowEdit(!showEdit);
   };
   const handleSubmit = (id, newTitle) => {
